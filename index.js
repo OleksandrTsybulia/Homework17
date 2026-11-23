@@ -1,5 +1,5 @@
 let billAmount = prompt("Вкажіть загальну суму рахунку");
-let tipsPercent = prompt("Вкажіть суму чайових");
+let tipsPercent = prompt("Вкажіть відсоток чайових");
 
 if (billAmount === null || tipsPercent === null) {
   alert("Canceled");
@@ -23,9 +23,9 @@ if (billAmount === null || tipsPercent === null) {
 
     alert(
       `Check sum: ${billAmount.toFixed(2)}
-       Tip: ${tipsPercent}%
-      Tip amount: ${totalPercent.toFixed(2)}
-      Total sum to pay: ${totalAmount.toFixed(2)}`,
+Tip: ${tipsPercent}%
+Tip amount: ${totalPercent.toFixed(2)}
+Total sum to pay: ${totalAmount.toFixed(2)}`,
     );
   }
 }
